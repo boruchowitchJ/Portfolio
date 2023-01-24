@@ -1,0 +1,323 @@
+:root {
+  --bluegreen: #50847F;
+  --lightgreen: #056630;
+  --greenmiddle: #2D4C38;
+  --darkgreenT: #153128;
+  --orange: #A74418;
+}
+
+#logo {
+  width: 16%;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  z-index: 3;
+}
+
+/* Background */
+
+
+.panel[data-y-pos="1"] {
+  top: -100%;
+  background-image: url('../images/skillsbg.png');
+  background-size: cover;
+
+}
+
+/* Wrapper */
+.wrapper {
+  width: 90%;
+  max-width: 900px;
+  margin: 3em auto;
+  text-align: center;
+}
+
+.container_skills{ 
+  width: 50%;
+  height: 66vh;
+
+}
+
+
+@-webkit-keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+.box.wisteria img{
+  width: 110px;
+height: 101px;
+margin-top: 19px;
+}
+.container_skills i.fab{
+  font-size: 6.2rem;
+margin-top: 17px;
+}
+ .container_skills i.fas{
+  font-size: 5.2rem;
+margin-top: 30px;
+}
+ .container_skills i.fi{
+  font-size: 5.2rem;
+  margin-top: 17px;
+}
+
+/***************************** CARDS ***************/
+a {
+	cursor: pointer;
+  text-decoration: none;
+  color:#fff;
+}
+a:hover {
+	text-decoration: none;
+  color:#fff;
+}
+
+.section{
+  position: relative;
+  width: 100%;
+  display: block;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.section1{
+  position: relative;
+  width: 100%;
+  display: block;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked){
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:checked + label,
+[type="checkbox"]:not(:checked) + label{
+  position: relative;
+  padding-left: 26px;
+  padding-right: 26px;
+  cursor: pointer;
+  line-height: 60px;
+  font-size: 58px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 10px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  
+}
+[type="checkbox"]:checked:hover + label:before,
+[type="checkbox"]:not(:checked):hover + label:before,
+[type="checkbox"]:checked:hover + label:after,
+[type="checkbox"]:not(:checked):hover + label:after{
+  opacity: 0.7;
+}
+[type="checkbox"]:checked + label:before,
+[type="checkbox"]:not(:checked) + label:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 55px;
+  border-radius: 3px;
+  background-color: transparent;
+  z-index: -1;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="checkbox"]:checked + label:after,
+[type="checkbox"]:not(:checked) + label:after{
+  content: '';
+  width: calc(100% - 6px);
+  border-radius: 2px;
+  height: 50px;
+  background-color: #e74c3c;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  z-index: -1;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="checkbox"]:not(:checked) + label:after{
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after{
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* #Colors
+================================================== */ 
+
+.checkbox-alizarin:checked + label:before,
+.checkbox-alizarin:not(:checked) + label:before{
+  border: 1px solid #f23a00;
+}
+.checkbox-alizarin:checked + label:after,
+.checkbox-alizarin:not(:checked) + label:after{
+  background-color:#f23a00;
+}
+
+.checkbox-wisteria:checked + label:before,
+.checkbox-wisteria:not(:checked) + label:before{
+  border: 1px solid #056630;
+}
+.checkbox-wisteria:checked + label:after,
+.checkbox-wisteria:not(:checked) + label:after{
+  background-color: #056630;
+}
+
+.checkbox-emerland:checked + label:before,
+.checkbox-emerland:not(:checked) + label:before{
+  border: 1px solid var(--bluegreen);
+}
+.checkbox-emerland:checked + label:after,
+.checkbox-emerland:not(:checked) + label:after{
+  background-color: var(--bluegreen);
+}
+
+.checkbox-belizehole:checked + label:before,
+.checkbox-belizehole:not(:checked) + label:before{
+  border: 1px solid var(--darkgreenT);
+}
+.checkbox-belizehole:checked + label:after,
+.checkbox-belizehole:not(:checked) + label:after{
+  background-color: var(--darkgreenT);
+}
+
+.checkbox-sunflower:checked + label:before,
+.checkbox-sunflower:not(:checked) + label:before{
+  border: 1px solid #e07b20;
+}
+.checkbox-sunflower:checked + label:after,
+.checkbox-sunflower:not(:checked) + label:after{
+  background-color: #e07b20;
+}
+
+.box{
+  border-radius: 10px;
+  box-shadow: 6px 7px 28px 0 rgba(16, 16, 16, 0.7);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-animation: float 6s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;  
+}
+.box.alizarin{
+  background-color:#f23a00;
+}
+.box.wisteria{
+  background-color: #056630;
+}
+.box.emerland{
+  background-color: var(--bluegreen);
+}
+.box.belizehole{
+  background-color: var(--darkgreenT);
+}
+.box.sunflower{
+  background-color: #e07b20;
+}
+.box.alizarin,
+.box.wisteria,
+.box.emerland,
+.box.belizehole,
+.box.sunflower{
+  opacity: 0;
+  min-height: 0;
+  max-width: 0;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  visibility:visible;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.checkbox-alizarin:not(:checked) ~ .box.alizarin,
+.checkbox-wisteria:not(:checked) ~ .box.wisteria,
+.checkbox-emerland:not(:checked) ~ .box.emerland,
+.checkbox-belizehole:not(:checked) ~ .box.belizehole,
+.checkbox-sunflower:not(:checked) ~ .box.sunflower{
+  opacity: 1;
+  min-height: 140px;
+  max-width: 100%;
+  min-width: calc(12% - 19px);
+  padding: 0 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 48px;
+  visibility: visible;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+@media (max-width: 1199px) {	
+  .checkbox-alizarin:checked ~ .box.alizarin,
+  .checkbox-wisteria:checked ~ .box.wisteria,
+  .checkbox-emerland:checked ~ .box.emerland,
+  .checkbox-belizehole:checked ~ .box.belizehole,
+  .checkbox-sunflower:checked ~ .box.sunflower{
+    min-width: calc(33.333333333333% - 20px);
+  }
+}
+@media (max-width: 991px) {	
+  .checkbox-alizarin:checked ~ .box.alizarin,
+  .checkbox-wisteria:checked ~ .box.wisteria,
+  .checkbox-emerland:checked ~ .box.emerland,
+  .checkbox-belizehole:checked ~ .box.belizehole,
+  .checkbox-sunflower:checked ~ .box.sunflower{
+    min-width: calc(50% - 20px);
+  }
+}
+@media (max-width: 575px) {	
+  .checkbox-alizarin:checked ~ .box.alizarin,
+  .checkbox-wisteria:checked ~ .box.wisteria,
+  .checkbox-emerland:checked ~ .box.emerland,
+  .checkbox-belizehole:checked ~ .box.belizehole,
+  .checkbox-sunflower:checked ~ .box.sunflower{
+    min-width: calc(100% - 20px);
+  }
+}
+

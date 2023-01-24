@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 647.05 267.17">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .04em;
+      }
+
+      .cls-2 {
+        font-size: 77.5px;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke-width: 5px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        font-size: 87.17px;
+        letter-spacing: .06em;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: Attentica4F-UltraLight, 'Attentica 4F';
+        font-weight: 100;
+      }
+
+      .cls-6 {
+        letter-spacing: .06em;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1" data-name="Calque 1">
+    <g id="blanc_sur_noir" data-name="blanc sur noir">
+      <g>
+        <circle class="cls-3" cx="133.58" cy="133.58" r="131.08"/>
+        <g>
+          <path class="cls-3" d="M117.26,181.31c0,12.62,4.68,23.52,14.05,32.56,9.37,8.9,20.66,13.42,33.88,13.42s25.21-3.99,34.3-12.09,13.64-19.4,13.64-33.88l-1.2-46.8M123.46,42.64l88.47,92.05V42.64H123.46Z"/>
+          <line class="cls-3" x1="117.26" y1="181.31" x2="117.26" y2="160.88"/>
+        </g>
+        <path class="cls-3" d="M55.92,156.54h43.92c15.09,0,27.85-5.6,38.52-16.93,10.67-11.33,15.95-24.87,15.95-40.89s-5.27-29.69-15.95-41.02c-10.67-11.33-22.83-16.93-38.52-16.93H55.92v115.78Zm0-115.78V225.67"/>
+        <path class="cls-3" d="M54.03,225.67h56.05c18.61,0,34.34-5.98,47.5-18.07,13.16-12.1,19.67-26.56,19.67-43.66s-6.51-31.7-19.67-43.8c-13.16-12.1-28.16-18.07-47.5-18.07H55.92"/>
+      </g>
+    </g>
+    <text class="cls-4" transform="translate(292.8 134.69) scale(1.03 1)"><tspan class="cls-2"><tspan class="cls-6" x="0" y="0">JENNNIFER </tspan><tspan class="cls-1" x="220.64" y="0">P</tspan><tspan class="cls-6" x="244.43" y="0">AOLA</tspan></tspan><tspan class="cls-5"><tspan x="0" y="76.15">BORUCHOWITCH</tspan></tspan></text>
+  </g>
+</svg>
