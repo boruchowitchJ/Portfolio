@@ -37,7 +37,11 @@
   height: 66vh;
 
 }
+.container_skills span{
+  font-size: 25px;
+ font-weight: 400;
 
+}
 
 @-webkit-keyframes float {
   0% {
@@ -75,15 +79,15 @@ height: 101px;
 margin-top: 19px;
 }
 .container_skills i.fab{
-  font-size: 6.2rem;
+  font-size: 4.8rem;
 margin-top: 17px;
 }
  .container_skills i.fas{
-  font-size: 5.2rem;
+  font-size: 3.8rem;
 margin-top: 30px;
 }
  .container_skills i.fi{
-  font-size: 5.2rem;
+  font-size: 3.8rem;
   margin-top: 17px;
 }
 
@@ -235,6 +239,7 @@ a:hover {
 }
 
 .box{
+ 
   border-radius: 10px;
   box-shadow: 6px 7px 28px 0 rgba(16, 16, 16, 0.7);
   -webkit-transition: all 0.3s ease;
@@ -280,7 +285,7 @@ a:hover {
   opacity: 1;
   min-height: 140px;
   max-width: 100%;
-  min-width: calc(12% - 19px);
+  min-width: calc(10% - 20px);
   padding: 0 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -289,8 +294,9 @@ a:hover {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   display: flex;
-flex-direction: row;
-justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 
 }
 @media (max-width: 1199px) {	
@@ -299,7 +305,7 @@ justify-content: center;
   .checkbox-emerland:checked ~ .box.emerland,
   .checkbox-belizehole:checked ~ .box.belizehole,
   .checkbox-sunflower:checked ~ .box.sunflower{
-    min-width: calc(33.333333333333% - 20px);
+    min-width: calc(5% - 20px);
   }
 }
 @media (max-width: 991px) {	

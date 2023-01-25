@@ -335,7 +335,7 @@ font-family: 'Montserrat';}
 {
   #timeline ul li .cont
   {
-    width: 120px;
+    width: 80px;
     line-height: 120%
   }
   
@@ -344,7 +344,7 @@ font-family: 'Montserrat';}
   #timeline ul li .cont p,
   #timeline ul li .cont time
   {
-    font-size: 76%
+    font-size: 50%
   }
   
   #timeline ul li .cont time
