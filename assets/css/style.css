@@ -114,10 +114,11 @@
     margin-top: 17px;
   }
   
+  
 
 }
 
-@media screen and (max-width:1200px)
+/* @media screen and (max-width:1200px)
 {
   .panel{
       width: 100%;
@@ -144,7 +145,7 @@
   }
 
 
-}
+} */
 
 .panel.full{
   width: 100%;
@@ -175,9 +176,11 @@
   }
   .hero__title {
     font-size: 5rem;
+    font-weight: 400;
   }
+  
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 584px) {
   .panel {
     display: none;
   }
@@ -189,5 +192,7 @@
     font-size: 2rem;
     font-weight: 100;
     letter-spacing: 2.5px;
+    
   }
+  
 }
