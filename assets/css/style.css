@@ -87,7 +87,34 @@
   margin: auto;
 }
 
+@media screen and (max-width:1900px)
+{
+  .panel{
+      width: 100%;
+  }
+  .hero__title {
+    
+    font-size: 12rem;
+  }
+  .container_skills{
+    width: 50%;
+    
+  }
+  .container_skills i.fab{
+    font-size: 5.2rem;
+  margin-top: 17px;
+  }
+   .container_skills i.fas{
+    font-size: 4.2rem;
+  margin-top: 30px;
+  }
+   .container_skills i.fi{
+    font-size: 4.2rem;
+    margin-top: 17px;
+  }
+   
 
+}
 @media screen and (max-width:1400px)
 {
   .panel{
@@ -113,7 +140,6 @@
     font-size: 4.2rem;
     margin-top: 17px;
   }
-  
   
 
 }
@@ -153,7 +179,7 @@
 .hide{
   display: none;
 }
-@media screen and (max-width: 1252px) {
+@media screen and (max-width: 1250px) {
   .panel {
     display: none;
   }
@@ -166,7 +192,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 992px) {
   .panel {
     display: none;
   }
@@ -175,7 +201,7 @@
    
   }
   .hero__title {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 400;
   }
   
