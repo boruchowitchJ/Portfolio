@@ -176,6 +176,7 @@
 .panel.full{
   width: 100%;
 }
+
 .hide{
   display: none;
 }
@@ -187,8 +188,18 @@
     display:block;
    
   }
+
   .hero__title {
     font-size: 8rem;
+    top: 65%;
+  }
+  .site-wrap #logo{
+    width: 42%;
+    position: absolute;
+    top: 7%;
+    left: 31%;
+    z-index: 3;
+  
   }
 }
 
